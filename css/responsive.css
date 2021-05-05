@@ -1,0 +1,179 @@
+@media only screen and (max-width:1023px) {
+    .order-second{
+        margin-top: 40px;
+    }
+    .details-wrapper .header .img-widget .button {
+        width: 175px;
+        height: 44px;
+        padding: 0;
+    }
+    #order-page .title {
+        font: bold 18px "NexaBold";
+        padding-bottom: 28px;
+    }
+    #order-page .order-widget {
+        text-align: left;
+    }
+    #order-page .order-widget h4{
+        font-size: 13px;
+    }   
+    #order-page .order-widget h5 {
+        font-size: 16px;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    .details-wrapper .flex-wrapper {
+        flex-direction: column;
+    }
+    .details-wrapper .header .img-widget{
+        text-align: -webkit-center;
+    }
+    .details-wrapper .header .img-widget img {
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    .toggle img{
+        width: 11px;
+        height: 17px;
+        object-fit: cover;
+    }
+    .details-wrapper .content-widget .head h2 {
+        border-bottom: 0px;
+        padding-bottom: 0;
+    }
+    .details-wrapper .content-widget .head p {
+        margin-top: 25px;
+        font: 400 16px "NexaBook";
+        text-align: left;
+    }
+    .details-wrapper .common-widget .flex-wrapper {
+        flex-direction: row;
+    }
+    .details-wrapper .content-widget  {
+        margin-top:30px;
+    }
+    .details-wrapper .common-widget {
+        margin: 20px 0;
+    }
+    .details-wrapper .common-widget span,  .details-wrapper .common-widget .spans > :last-child  {
+        font: 400 18px "NexaBook";
+    }
+    .details-wrapper .common-widget .spans > :last-child{
+        padding: 0 0 0 50px;
+    }
+    .details-wrapper .common-widget .white-box p {
+        font-size: 16px;
+    }
+/**************Notes section ***************/
+    #notes-section{
+        color: #436169;
+        padding:0;
+    }
+    #notes-section .grid-wrap, #notes-section .ingradient-wrapper .grid-flex {
+        flex-direction: column;
+    }
+    #notes-section .grid-wrap > div {
+        margin: 25px 0;
+    }
+    #notes-section .content-widget p{
+        font-size: 16px;
+    }
+    #notes-section .grid-wrap .flex-3-wrappers{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #notes-section .ingradient-wrapper .grid-flex .circle-widget {
+        width: 100%;
+    }
+    #notes-section .ingradient-wrapper .grid-flex .para-wrap {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+   #notes-section .ingradient-wrapper{
+        margin-top: 25px;
+    }
+    #notes-section .ingradient-wrapper .grid-flex .para-wrap p{
+        font: normal 16px "NexaBook";
+        margin-top: 10px;
+    }
+    #notes-section .ingradient-wrapper h5 {
+        font: normal 14px "NexaBook";
+    }
+    /*********Toggle ingradients************/
+    .title-notes{
+        position: relative;
+    }
+    #notes-section .grid-wrap #infradientToggle{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display:inline-block;
+    }
+    .flex-3-wrappers {
+        height: 0;
+        transition: height 1s ease-in-out;
+        overflow: hidden;
+      }
+      .flex-3-wrappers:not(.active) {
+        display: none;
+      }
+      .rotate{
+          transform: rotate(180deg);
+          transition:all 0.6s ease-in-out;
+      }
+/***********meet-your-perfumer*************/
+    .meet-your-perfumer{
+        background: #99BAC1;
+        padding: 30px 0;
+        color: #fff;
+    }
+    .meet-your-perfumer .flex-grid{
+        flex-direction: column;
+    }
+    .meet-your-perfumer .content-widget .title-perfumer{
+        margin: 20px 0;
+    }
+    .meet-your-perfumer .content-widget .title-perfumer h4{
+        font: bold 28px "NexaBold";
+    }
+    .meet-your-perfumer .content-widget h2 {
+        font: normal 22px "NexaBook";
+        margin: 0;
+    }
+    .meet-your-perfumer .img-widget {
+        text-align: center;
+    }
+    #fragrances-ways-wear{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    #fragrances-ways-wear h4{
+        width: 100%;
+        order: -1;
+        color: #6B0205;
+        font-weight: 700;
+        position: absolute;
+        bottom:0%;
+        margin: 25px 0 0 0;
+    }
+    .title-fragrance h2{
+        font: bold 28px "NexaBold";
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    #fragrances-ways-wear .middle-widget{
+        padding-bottom: 50px;
+    }
+    #fragrances-ways-wear .right-widget{
+        text-align: center;
+    }
+    #fragrances-ways-wear .thumbnail-slider .item {
+        padding: 0px;
+        position: relative;
+    }
+    #fragrances-ways-wear .controls{
+        display: block;
+    }
+}
